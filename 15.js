@@ -67,7 +67,7 @@ const loader = new GLTFLoader();
 // // load a resource
 loader.load(
 	// resource URL
-	'../Rock1.glb',
+	'Rock1.glb',
 	// called when the resource is loaded
 	function ( gltf ) {
     
@@ -107,7 +107,7 @@ const loader01 = new GLTFLoader();
 // // load a resource
 loader01.load(
 	// resource URL
-	'../Rock1.glb',
+	'Rock1.glb',
 	// called when the resource is loaded
 	function ( gltf ) {
     
@@ -149,7 +149,7 @@ const loader1 = new GLTFLoader();
 // // load a resource
 loader1.load(
 	// resource URL
-	'../sca.glb',
+	'sca.glb',
 	// called when the resource is loaded
 	function ( sca ) {
     sca.scene.scale.set(0.2, 0.2, 0.2); 
@@ -188,7 +188,7 @@ const loader2 = new GLTFLoader();
 // // load a resource
 loader2.load(
 	// resource URL
-	'../house.glb',
+	'house.glb',
 	// called when the resource is loaded
 	function ( sca ) {
     sca.scene.scale.set(0.01, 0.01, 0.01); 
